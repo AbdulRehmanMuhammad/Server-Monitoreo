@@ -6,7 +6,7 @@ connection  plain  priority  high   history ]  'apache.com is up. On port 80 
 ]  $msn.com is up. On port 80 with plain  hC
   . 1   R   ah ubh)  } (h smtp.gmail.com hM h	 ssl h
  high h
-]  *smtp.gmail.com is up. On port 465 with ssl  hC
+]  *smtp.gmail.com is up. On port 587 with ssl  hC
   .d R   ah ubh)  } (h 
 192.168.207.20 hKPh	 ping h
  high h
