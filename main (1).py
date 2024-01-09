@@ -50,7 +50,7 @@ class Server:
 
         if success == False and self.alert == False:
             self.alert = True
-            email_alert(self.name, f"{msg}\n{now}", "davidpapa726@gmail.com")
+            email_alert(self.name, f"{msg}\n{now}", "bajotatu@altmails.com")
 
         self.create_history(msg, success, now)
 
@@ -80,7 +80,7 @@ if __name__ == "__main__":
         servers = [
             Server("apache.com", 80, "plain", "high"),
             Server("msn.com", 80, "plain", "high"),
-            Server("smtp.gmail.com", 465, "ssl", "high"),
+            Server("smtp.gmail.com", 587, "ssl", "high"),
             Server("192.168.207.20", 80, "ping", "high")
         ]
 
