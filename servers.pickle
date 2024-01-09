@@ -1,0 +1,14 @@
+  )      ] ( __main__  Server   )  } ( name  
+apache.com  port KP 
+connection  plain  priority  high   history ]  'apache.com is up. On port 80 with plain   datetime  datetime   C
+  . 3   R   a alert  ubh)  } (h  msn.com hKPh	 plain h
+ high h
+]  $msn.com is up. On port 80 with plain  hC
+  . 1   R   ah ubh)  } (h smtp.gmail.com hM h	 ssl h
+ high h
+]  *smtp.gmail.com is up. On port 465 with ssl  hC
+  .d R   ah ubh)  } (h 
+192.168.207.20 hKPh	 ping h
+ high h
+]  The Server is down!  hC
+  . Ҕ  R   ah ube.
