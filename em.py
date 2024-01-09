@@ -6,10 +6,10 @@ def email_alert(subject, body, to):
     msg = EmailMessage()
     msg.set_content(body)
 
-    gmail_user = 'keagan78@ethereal.email'
-    gmail_password = 'Y4KZhqbTVrDvSj5GSe'
+    gmail_user = 'davidpapa726@gmailcom'
+    gmail_password = 'ujcw eluz mgir ejxk'
     msg['Subject'] = subject
-    msg['From'] = "keagan78@ethereal.email"
+    msg['From'] = "davidpapa726@gmail.com"
     msg['To'] = to
 
     # Send the message via our own SMTP server.
@@ -26,4 +26,4 @@ def email_alert(subject, body, to):
 
 
 if __name__ == '__main__':
-    email_alert("Your server is down!", "Test!", "davidpapa726@gmail.com")
+    email_alert("Your server is down!", "Test!", "bajotatu@altmails.com")
